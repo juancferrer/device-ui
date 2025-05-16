@@ -80,7 +80,7 @@ void create_screen_boot_screen() {
             objects.boot_logo = obj;
             lv_obj_set_pos(obj, 0, -24);
             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
-            lv_image_set_src(obj, &img_meshtastic_boot_logo_image);
+            lv_image_set_src(obj, &img_kitty_street_boot_logo);
             lv_obj_set_style_align(obj, LV_ALIGN_CENTER, LV_PART_MAIN | LV_STATE_DEFAULT);
         }
         {
@@ -2321,7 +2321,7 @@ void create_screen_main_screen() {
                     lv_obj_clear_flag(obj, LV_OBJ_FLAG_SCROLLABLE);
                     lv_obj_set_style_text_font(obj, &ui_font_montserrat_20, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_align(obj, LV_ALIGN_CENTER, LV_PART_MAIN | LV_STATE_DEFAULT);
-                    lv_label_set_text(obj, _("Meshtastic"));
+                    lv_label_set_text(obj, _("Kitty Mesh"));
                 }
             }
         }
