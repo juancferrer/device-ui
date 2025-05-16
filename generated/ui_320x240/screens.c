@@ -1550,7 +1550,7 @@ void create_screen_main_screen() {
                             lv_obj_set_pos(obj, 0, 70);
                             lv_obj_set_size(obj, LV_PCT(85), LV_SIZE_CONTENT);
                             lv_dropdown_set_options(obj, _("map tiles not found!"));
-                            lv_dropdown_set_selected(obj, 0);
+                            lv_dropdown_set_selcted(obj, 0, 0);
                             add_style_drop_down_style(obj);
                             lv_obj_set_style_align(obj, LV_ALIGN_TOP_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                             lv_obj_set_style_pad_top(obj, 2, LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -3430,7 +3430,7 @@ void create_screen_main_screen() {
                     lv_obj_set_pos(obj, 0, 0);
                     lv_obj_set_size(obj, 150, 30);
                     lv_dropdown_set_options(obj, "US\nEU_433\nEU_868\nCN\nJP\nANZ\nKR\nTW\nRU\nIN\nNZ_865\nTH\nLORA_24\nUA_433\nUA_868\nMY_433\nMY_919\nSG_923\nPH_433\nPH_868\nPH_915");
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selcted(obj, 0, 0);
                     lv_obj_set_style_align(obj, LV_ALIGN_TOP_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_pad_top(obj, 5, LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -3476,7 +3476,7 @@ void create_screen_main_screen() {
                     lv_obj_set_pos(obj, 0, 0);
                     lv_obj_set_size(obj, 180, 30);
                     lv_dropdown_set_options(obj, _("LONG FAST\nLONG SLOW\n-- deprecated --\nMEDIUM SLOW\nMEDIUM FAST\nSHORT SLOW\nSHORT FAST\nLONG MODERATE\nSHORT TURBO"));
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selcted(obj, 0, 0);
                     add_style_drop_down_style(obj);
                     lv_obj_set_style_align(obj, LV_ALIGN_TOP_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -3555,7 +3555,7 @@ void create_screen_main_screen() {
                     lv_obj_set_pos(obj, 0, 0);
                     lv_obj_set_size(obj, 150, 30);
                     lv_dropdown_set_options(obj, _("Client\nClient Mute\nRouter\nRepeater\nTracker\nSensor\nTAK\nClient Hidden\nLost & Found\nTAK Tracker"));
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selcted(obj, 0, 0);
                     add_style_drop_down_style(obj);
                     lv_obj_set_style_align(obj, LV_ALIGN_TOP_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -3777,7 +3777,7 @@ void create_screen_main_screen() {
                     lv_obj_set_pos(obj, 0, 0);
                     lv_obj_set_size(obj, 150, 30);
                     lv_dropdown_set_options(obj, _("Dark\nLight"));
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selcted(obj, 0, 0);
                     add_style_drop_down_style(obj);
                     lv_obj_set_style_align(obj, LV_ALIGN_TOP_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -4014,7 +4014,7 @@ void create_screen_main_screen() {
                     lv_obj_set_pos(obj, 50, -5);
                     lv_obj_set_size(obj, 100, 30);
                     lv_dropdown_set_options(obj, _("none"));
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selcted(obj, 0, 0);
                     add_style_drop_down_style(obj);
                     lv_obj_set_style_align(obj, LV_ALIGN_TOP_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -4035,7 +4035,7 @@ void create_screen_main_screen() {
                     lv_obj_set_pos(obj, 50, 40);
                     lv_obj_set_size(obj, 100, 30);
                     lv_dropdown_set_options(obj, _("none"));
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selcted(obj, 0, 0);
                     add_style_drop_down_style(obj);
                     lv_obj_set_style_align(obj, LV_ALIGN_TOP_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -4111,7 +4111,7 @@ void create_screen_main_screen() {
                     lv_obj_set_pos(obj, 10, 30);
                     lv_obj_set_size(obj, 120, 30);
                     lv_dropdown_set_options(obj, _("Default"));
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selcted(obj, 0, 0);
                     add_style_drop_down_style(obj);
                     lv_obj_set_style_align(obj, LV_ALIGN_TOP_RIGHT, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -4157,7 +4157,7 @@ void create_screen_main_screen() {
                     lv_obj_set_pos(obj, 0, 0);
                     lv_obj_set_size(obj, 150, 30);
                     lv_dropdown_set_options(obj, "English\nDeutsch\nΕλληνικά\nEspañol\nFrançais\nItaliano\nNederlands\nNorsk\nPolski\nPortuguês\nРусский\nSlovenščina\nSrpski\nSuomalainen\nSvenska\nTürkçe\nУкраїнська");
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selcted(obj, 0, 0);
                     add_style_drop_down_style(obj);
                     lv_obj_set_style_align(obj, LV_ALIGN_TOP_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -4212,7 +4212,7 @@ void create_screen_main_screen() {
                     lv_obj_set_pos(obj, 5, -2);
                     lv_obj_set_size(obj, 150, 30);
                     lv_dropdown_set_options(obj, "Europe");
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selcted(obj, 0, 0);
                     add_style_drop_down_style(obj);
                     lv_obj_set_style_align(obj, LV_ALIGN_TOP_RIGHT, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -4234,7 +4234,7 @@ void create_screen_main_screen() {
                     lv_obj_set_pos(obj, 5, 40);
                     lv_obj_set_size(obj, 150, 30);
                     lv_dropdown_set_options(obj, "London\t");
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selcted(obj, 0, 0);
                     add_style_drop_down_style(obj);
                     lv_obj_set_style_align(obj, LV_ALIGN_TOP_RIGHT, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -4300,7 +4300,7 @@ void create_screen_main_screen() {
                     lv_obj_set_pos(obj, 0, 55);
                     lv_obj_set_size(obj, 190, 30);
                     lv_dropdown_set_options(obj, _("Public/Private Key"));
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selcted(obj, 0, 0);
                     add_style_drop_down_style(obj);
                     lv_obj_set_style_align(obj, LV_ALIGN_TOP_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -4345,7 +4345,7 @@ void create_screen_main_screen() {
                     lv_obj_set_pos(obj, 0, 0);
                     lv_obj_set_size(obj, 150, 30);
                     lv_dropdown_set_options(obj, _("NodeDB Reset\nFactory Reset\nClear Chat History"));
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selcted(obj, 0, 0);
                     add_style_drop_down_style(obj);
                     lv_obj_set_style_align(obj, LV_ALIGN_TOP_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -4706,7 +4706,7 @@ void create_screen_main_screen() {
                                             lv_obj_set_pos(obj, -8, -2);
                                             lv_obj_set_size(obj, 65, 25);
                                             lv_dropdown_set_options(obj, "ALL\n0\n1\n2\n3\n4\n5\n6\n7");
-                                            lv_dropdown_set_selected(obj, 0);
+                                            lv_dropdown_set_selcted(obj, 0, 0);
                                             add_style_drop_down_style(obj);
                                             lv_obj_set_style_align(obj, LV_ALIGN_RIGHT_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                                             lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -4736,7 +4736,7 @@ void create_screen_main_screen() {
                                             lv_obj_set_pos(obj, -8, -2);
                                             lv_obj_set_size(obj, 65, 25);
                                             lv_dropdown_set_options(obj, "<= 7\n<= 6\n<= 5\n<= 4\n<= 3\n<= 2\n<= 1\n0\n>= 1\n>= 2\n>= 3\n>= 4\n>= 5\n>= 6\n>= 7");
-                                            lv_dropdown_set_selected(obj, 0);
+                                            lv_dropdown_set_selcted(obj, 0, 0);
                                             add_style_drop_down_style(obj);
                                             lv_obj_set_style_align(obj, LV_ALIGN_RIGHT_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                                             lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -6091,7 +6091,7 @@ void create_screen_main_screen() {
                             lv_obj_set_pos(obj, 0, 20);
                             lv_obj_set_size(obj, 90, 30);
                             lv_dropdown_set_options(obj, "US\nEU_433\nEU_868\nCN\nJP\nANZ\nKR\nTW\nRU\nIN\nNZ_865\nTH\nLORA_24\nUA_433\nUA_868\nMY_433\nMY_919\nSG_923\nPH_433\nPH_868\nPH_915");
-                            lv_dropdown_set_selected(obj, 0);
+                            lv_dropdown_set_selcted(obj, 0, 0);
                             lv_obj_set_style_align(obj, LV_ALIGN_TOP_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                             lv_obj_set_style_border_color(obj, lv_color_hex(0xffe0e0e0), LV_PART_MAIN | LV_STATE_DEFAULT);
                             lv_obj_set_style_pad_top(obj, 5, LV_PART_MAIN | LV_STATE_DEFAULT);
