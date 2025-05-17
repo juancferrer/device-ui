@@ -63,7 +63,7 @@ void create_screen_boot_screen() {
             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
             lv_obj_set_style_align(obj, LV_ALIGN_BOTTOM_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
             lv_obj_set_style_text_font(obj, &ui_font_montserrat_20, LV_PART_MAIN | LV_STATE_DEFAULT);
-            lv_label_set_text(obj, "Kitty Mesh2");
+            lv_label_set_text(obj, "Kitty LOCAL");
         }
         {
             // FirmwareLabel
@@ -2321,7 +2321,7 @@ void create_screen_main_screen() {
                     lv_obj_clear_flag(obj, LV_OBJ_FLAG_SCROLLABLE);
                     lv_obj_set_style_text_font(obj, &ui_font_montserrat_20, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_align(obj, LV_ALIGN_CENTER, LV_PART_MAIN | LV_STATE_DEFAULT);
-                    lv_label_set_text(obj, _("Kitty Mesh"));
+                    lv_label_set_text(obj, _("Kitty LOCAL"));
                 }
             }
         }

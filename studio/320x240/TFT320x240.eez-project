@@ -20,7 +20,7 @@
       "keywords": "meshtastic",
       "targetPlatform": "esp32",
       "resourceFiles": [],
-      "hiddenWidgetLines": "dimmed",
+      "hiddenWidgetLines": "visible",
       "dimmedLinesOpacity": "20"
     },
     "build": {
@@ -364,8 +364,8 @@
               "type": "LVGLImageWidget",
               "left": 0,
               "top": -24,
-              "width": 99,
-              "height": 52,
+              "width": 154,
+              "height": 60,
               "customInputs": [],
               "customOutputs": [],
               "style": {
@@ -404,7 +404,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "image": "meshtastic_boot_logo_image",
+              "image": "kitty_street_boot_logo",
               "setPivot": false,
               "pivotX": 0,
               "pivotY": 0,
@@ -2586,7 +2586,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "NodesPanel",
@@ -3217,7 +3217,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "GroupsPanel",
@@ -4012,7 +4012,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "MessagesPanel",
@@ -4256,7 +4256,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "ChatsPanel",
@@ -5635,7 +5635,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "ControllerPanel",
@@ -8240,7 +8240,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "AdvancedSettingsPanel",
@@ -8355,7 +8355,7 @@
                   "type": "LVGLLabelWidget",
                   "left": 14,
                   "top": 0,
-                  "width": 112,
+                  "width": 107,
                   "height": 26,
                   "customInputs": [],
                   "customOutputs": [],
@@ -8392,7 +8392,7 @@
                     }
                   },
                   "groupIndex": 0,
-                  "text": "Meshtastic",
+                  "text": "Kitty Mesh",
                   "textType": "translated-literal",
                   "longMode": "WRAP",
                   "recolor": false
@@ -8435,7 +8435,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopNodesPanel",
@@ -8579,7 +8579,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopGroupsPanel",
@@ -8723,7 +8723,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopGroupChatPanel",
@@ -8867,7 +8867,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopSettingsPanel",
@@ -9010,7 +9010,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopAdvancedSettingsPanel",
@@ -9153,7 +9153,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopMapPanel",
@@ -9296,7 +9296,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopChatsPanel",
@@ -9439,7 +9439,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopMessagesPanel",
@@ -9583,7 +9583,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopNodeSearchPanel",
@@ -9726,7 +9726,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopMeshDetectorPanel",
@@ -9870,7 +9870,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopSignalScannerPanel",
@@ -10014,7 +10014,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopTraceRoutePanel",
@@ -10157,7 +10157,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopNeighborsPanel",
@@ -10300,7 +10300,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopStatisticsPanel",
@@ -10443,7 +10443,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopPacketLogPanel",
@@ -10586,7 +10586,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopNodeOptionsPanel",
@@ -10874,7 +10874,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopLoraTxPanel",
@@ -11020,7 +11020,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsUsernamePanel",
@@ -11420,7 +11420,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsChannelPanel",
@@ -12491,7 +12491,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsRegionPanel",
@@ -12641,7 +12641,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsModemPresetPanel",
@@ -12909,7 +12909,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsDeviceRolePanel",
@@ -13059,7 +13059,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsWifiPanel",
@@ -13459,7 +13459,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsBrightnessPanel",
@@ -13674,7 +13674,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsThemePanel",
@@ -13823,7 +13823,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsScreenTimeoutPanel",
@@ -14039,7 +14039,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsScreenLockPanel",
@@ -14502,7 +14502,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsInputControlPanel",
@@ -14794,7 +14794,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsAlertBuzzerPanel",
@@ -15097,7 +15097,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsLanguagePanel",
@@ -15246,7 +15246,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsTimezone",
@@ -15538,7 +15538,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsBackupRestorePanel",
@@ -15790,7 +15790,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsResetPanel",
@@ -15939,7 +15939,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SettingsModifyChannelPanel",
@@ -16551,7 +16551,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "NodeOptionsPanel",
@@ -18309,7 +18309,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "MeshDetectorPanel",
@@ -19237,7 +19237,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "SignalScannerPanel",
@@ -19909,7 +19909,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TraceRoutePanel",
@@ -20451,7 +20451,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "NodeDetailsPanel",
@@ -20848,7 +20848,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "ToolsStatisticsPanel",
@@ -20956,7 +20956,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "ToolsPacketLogPanel",
@@ -21012,7 +21012,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "MsgPopupPanel",
@@ -21159,7 +21159,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "MsgRestorePanel",
@@ -21371,7 +21371,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "TopSetupPanel",
@@ -21514,7 +21514,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "InitialSetupPanel",
@@ -22072,7 +22072,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "AlertPanel",
@@ -22174,7 +22174,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
-              "hiddenInEditor": true,
+              "hiddenInEditor": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "Keyboard",
@@ -24435,6 +24435,15 @@
       "name": "reboot_BT_on_image",
       "image": "data:image/png;base64,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",
       "bpp": 16,
+      "alwaysBuild": false,
+      "lvglBinaryOutputFormat": 3,
+      "lvglDither": false
+    },
+    {
+      "objID": "ea7e42a3-65f8-4939-87b9-76a3a7d62621",
+      "name": "kitty_street_boot_logo",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJoAAAA8CAYAAACeuqPkAAAFtGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS41LjAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICAgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIgogICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iCiAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIKICAgIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIgogICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgeG1wOkNyZWF0ZURhdGU9IjIwMjUtMDEtMzFUMTg6MzM6MjUtMDY6MDAiCiAgIHhtcDpNb2RpZnlEYXRlPSIyMDI1LTA1LTE2VDAwOjMyOjM0LTA1OjAwIgogICB4bXA6TWV0YWRhdGFEYXRlPSIyMDI1LTA1LTE2VDAwOjMyOjM0LTA1OjAwIgogICBwaG90b3Nob3A6RGF0ZUNyZWF0ZWQ9IjIwMjUtMDEtMzFUMTg6MzM6MjUtMDY6MDAiCiAgIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiCiAgIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIu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",
+      "bpp": 32,
       "alwaysBuild": false,
       "lvglBinaryOutputFormat": 3,
       "lvglDither": false
